@@ -3,18 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|c:\\users\\nevertell\\source\\repos\\ejemplo abm\\proyectoconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|solutionrelative:proyectoconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|c:\\users\\nevertell\\source\\repos\\ejemplo abm\\proyectoconsola\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|solutionrelative:proyectoconsola\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0691B57C-4FBA-4974-847C-FDF048C69730}|WinForms\\WinForms.csproj|c:\\users\\nevertell\\source\\repos\\ejemplo abm\\winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0691B57C-4FBA-4974-847C-FDF048C69730}|WinForms\\WinForms.csproj|solutionrelative:winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Garage/True/SqlTable/dbo.Cars.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|c:\\users\\nevertell\\source\\repos\\ejemplo abm\\proyectoconsola\\proyectoconsola.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{0691B57C-4FBA-4974-847C-FDF048C69730}|WinForms\\WinForms.csproj|c:\\users\\nevertell\\source\\repos\\ejemplo abm\\winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0691B57C-4FBA-4974-847C-FDF048C69730}|WinForms\\WinForms.csproj|solutionrelative:winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\proyectoconsola\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|solutionrelative:proyectoconsola\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|c:\\users\\nevertell\\source\\repos\\ejemplo abm\\proyectoconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|solutionrelative:proyectoconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\proyectoconsola\\proyectoconsola.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C357F503-117C-47B8-8E68-204F2D580D46}|ProyectoConsola\\ProyectoConsola.csproj|solutionrelative:proyectoconsola\\proyectoconsola.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -29,7 +37,46 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoConsola\\Program.cs",
+              "ToolTip": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\Program.cs",
+              "RelativeToolTip": "ProyectoConsola\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T20:43:47.446Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\WinForms\\Form1.cs",
+              "RelativeDocumentMoniker": "WinForms\\Form1.cs",
+              "ToolTip": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\WinForms\\Form1.cs",
+              "RelativeToolTip": "WinForms\\Form1.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwCYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T22:13:42.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\WinForms\\Form1.cs",
+              "RelativeDocumentMoniker": "WinForms\\Form1.cs",
+              "ToolTip": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\WinForms\\Form1.cs [Design]",
+              "RelativeToolTip": "WinForms\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T22:08:56.954Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "dbo.Cars [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Garage/True/SqlTable/dbo.Cars.sql",
               "ToolTip": "dbo.Cars [Data]",
@@ -39,34 +86,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\Program.cs",
-              "RelativeDocumentMoniker": "ProyectoConsola\\Program.cs",
-              "ToolTip": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\Program.cs",
-              "RelativeToolTip": "ProyectoConsola\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T20:43:47.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\Class1.cs",
               "RelativeDocumentMoniker": "ProyectoConsola\\Class1.cs",
               "ToolTip": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\Class1.cs",
               "RelativeToolTip": "ProyectoConsola\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAswCsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-20T19:12:02.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProyectoConsola",
+              "DocumentIndex": 5,
+              "Title": "ProyectoConsola.csproj",
               "DocumentMoniker": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\ProyectoConsola.csproj",
               "RelativeDocumentMoniker": "ProyectoConsola\\ProyectoConsola.csproj",
               "ToolTip": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\ProyectoConsola.csproj",

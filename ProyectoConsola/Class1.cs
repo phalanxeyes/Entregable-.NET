@@ -33,17 +33,17 @@ namespace ProyectodeConsola
     }
     public class CRUD
     {
-        public static void Create() 
+        public static void Create(string company, string model, string state, string license, int production_year) 
         { 
             using GarageContext context = new GarageContext();
             {
                 context.Cars.Add(new Car
                 {
-                    company = Console.ReadLine(),
-                    model = Console.ReadLine(),
-                    state = Console.ReadLine(),
-                    license = Console.ReadLine(),
-                    production_year = (int)Convert.ChangeType(Console.ReadLine(), typeof(int))
+                    company = company,
+                    model = model,
+                    state = state,
+                    license = license,
+                    production_year = (int)Convert.ChangeType(production_year, typeof(int))
                 }); 
                 context.SaveChanges();
             }

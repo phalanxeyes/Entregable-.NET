@@ -61,3 +61,4 @@ C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectoConsola\obj\Debug\net8.0\ref
 C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectoConsola\obj\Debug\net8.0\ProyectoConsola.pdb
 C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectoConsola\obj\Debug\net8.0\ProyectoConsola.genruntimeconfig.cache
 C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectoConsola\obj\Debug\net8.0\ref\ProyectoConsola.dll
+C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectoConsola\obj\Debug\net8.0\ProyectoConsola.sourcelink.json

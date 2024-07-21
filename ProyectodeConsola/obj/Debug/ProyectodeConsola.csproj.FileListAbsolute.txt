@@ -1,7 +1,0 @@
-C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectodeConsola\bin\Debug\ProyectodeConsola.exe.config
-C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectodeConsola\bin\Debug\ProyectodeConsola.exe
-C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectodeConsola\bin\Debug\ProyectodeConsola.pdb
-C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectodeConsola\obj\Debug\ProyectodeConsola.csproj.AssemblyReference.cache
-C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectodeConsola\obj\Debug\ProyectodeConsola.csproj.CoreCompileInputs.cache
-C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectodeConsola\obj\Debug\ProyectodeConsola.exe
-C:\Users\nevertell\source\repos\Ejemplo ABM\ProyectodeConsola\obj\Debug\ProyectodeConsola.pdb
