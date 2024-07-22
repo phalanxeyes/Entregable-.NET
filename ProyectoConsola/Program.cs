@@ -2,6 +2,6 @@
 
 //CRUD.Create();
 //CRUD.Read();
-CRUD.Update();
-CRUD.Delete();
+//CRUD.Update();
+//CRUD.Delete();
 Console.ReadKey();

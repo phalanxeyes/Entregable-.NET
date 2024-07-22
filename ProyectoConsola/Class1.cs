@@ -12,11 +12,11 @@ namespace ProyectodeConsola
     public class Car
     {
             public int id { get; set; }
-            public string company { get; set; }
-            public string model { get; set; }
-            public string state { get; set; }
-            public string license { get; set; }
-            public int production_year { get; set; }
+            public string? company { get; set; }
+            public string? model { get; set; }
+            public string? state { get; set; }
+            public string? license { get; set; }
+            public int? production_year { get; set; }
     }
     public class GarageContext : DbContext
     {
@@ -43,7 +43,7 @@ namespace ProyectodeConsola
                     model = model,
                     state = state,
                     license = license,
-                    production_year = (int)Convert.ChangeType(production_year, typeof(int))
+                    production_year = production_year
                 }); 
                 context.SaveChanges();
             }
@@ -64,27 +64,26 @@ namespace ProyectodeConsola
                 }
             }
         }
-        public static void Update() 
+        public static void Update(int id, string company, string model, string state, string license, int production_year) 
         {
-            int.TryParse(Console.ReadLine(), out int id);
+//            int.TryParse(Console.ReadLine(), out int id);
             using GarageContext context = new GarageContext();
             {
                 var cartomodify = context.Cars.Find(id);
-                cartomodify.company = Console.ReadLine();
-                cartomodify.model = Console.ReadLine();
-                cartomodify.state = Console.ReadLine();
-                cartomodify.license = Console.ReadLine();
-                cartomodify.production_year = (int)Convert.ChangeType(Console.ReadLine(), typeof(int));
+                cartomodify.company = company;
+                cartomodify.model = model;
+                cartomodify.state = state;
+                cartomodify.license = license;
+                cartomodify.production_year = production_year;
                 context.SaveChanges();
             };
         }
-        public static void Delete() 
+        public static void Delete(int id) 
         {
-            int.TryParse(Console.ReadLine(), out int idinput);
             using GarageContext context = new GarageContext();
             {
             var selected = from c in context.Cars
-                       where c.id == idinput
+                       where c.id == id
                        select c;
                 context.Cars.Remove(selected.ToList()[0]);
                 context.SaveChanges();

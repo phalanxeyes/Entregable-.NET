@@ -2748,19 +2748,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nevertell\\.nuget\\packages\\": {}
+    "C:\\Users\\nico-\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\ProyectoConsola.csproj",
+      "projectUniqueName": "C:\\Users\\nico-\\Desktop\\Entregable-.NET\\ProyectoConsola\\ProyectoConsola.csproj",
       "projectName": "ProyectoConsola",
-      "projectPath": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\ProyectoConsola.csproj",
-      "packagesPath": "C:\\Users\\nevertell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\obj\\",
+      "projectPath": "C:\\Users\\nico-\\Desktop\\Entregable-.NET\\ProyectoConsola\\ProyectoConsola.csproj",
+      "packagesPath": "C:\\Users\\nico-\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nico-\\Desktop\\Entregable-.NET\\ProyectoConsola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nevertell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nico-\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2812,7 +2812,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
