@@ -7,7 +7,7 @@ namespace WinForms
     public partial class Form1 : Form
     {
         public float state { get; set; }
-
+        List<string[]> list = new List<string[]>();
         public Form1()
         {
             InitializeComponent();
@@ -45,7 +45,16 @@ namespace WinForms
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            state = 1;
+            dataGridView1.Rows.Clear();
+            hideAll();
+            dataGridView1.Show();
+            button5.Show();
+            list = CRUD.Read();
+            foreach (var carData in list) 
+            {
+                dataGridView1.Rows.Add(carData);
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -82,6 +91,12 @@ namespace WinForms
                     hideAll();
                     showMenu();
                     break;
+
+                case 1:
+                    hideAll();
+                    showMenu();
+                    break;
+
                 case 2.1F:
                     hideAll();
                     button5.Show();
@@ -97,10 +112,9 @@ namespace WinForms
                     textBox4.Show();
                     textBox5.Show();
                     state = 2.2F;
-
                     break;
+
                 case 2.2F:
-                    button5.Text = textBox6.Text;
                     CRUD.Update(Convert.ToInt32(textBox6.Text), textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, Convert.ToInt32(textBox5.Text));
                     foreach (var txtbox in Controls.OfType<System.Windows.Forms.TextBox>())
                     {
@@ -109,6 +123,7 @@ namespace WinForms
                     hideAll();
                     showMenu();
                     break;
+
                 case 3:
                     CRUD.Delete(Convert.ToInt32(textBox6.Text));
                     hideAll();

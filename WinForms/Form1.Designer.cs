@@ -46,6 +46,12 @@
             button5 = new Button();
             textBox6 = new TextBox();
             label6 = new Label();
+            ID = new DataGridViewTextBoxColumn();
+            Company = new DataGridViewTextBoxColumn();
+            Model = new DataGridViewTextBoxColumn();
+            State = new DataGridViewTextBoxColumn();
+            License = new DataGridViewTextBoxColumn();
+            Production = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -96,11 +102,12 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(214, 52);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ID, Company, Model, State, License, Production });
+            dataGridView1.Location = new Point(26, 41);
             dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(262, 141);
+            dataGridView1.Size = new Size(653, 141);
             dataGridView1.TabIndex = 4;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -229,6 +236,42 @@
             label6.Text = "Car ID:";
             label6.Visible = false;
             // 
+            // ID
+            // 
+            ID.HeaderText = "ID";
+            ID.Name = "ID";
+            ID.ReadOnly = true;
+            // 
+            // Company
+            // 
+            Company.HeaderText = "Company";
+            Company.Name = "Company";
+            Company.ReadOnly = true;
+            // 
+            // Model
+            // 
+            Model.HeaderText = "Model";
+            Model.Name = "Model";
+            Model.ReadOnly = true;
+            // 
+            // State
+            // 
+            State.HeaderText = "State";
+            State.Name = "State";
+            State.ReadOnly = true;
+            // 
+            // License
+            // 
+            License.HeaderText = "License";
+            License.Name = "License";
+            License.ReadOnly = true;
+            // 
+            // Production
+            // 
+            Production.HeaderText = "Production";
+            Production.Name = "Production";
+            Production.ReadOnly = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -280,5 +323,11 @@
         private Button button5;
         private TextBox textBox6;
         private Label label6;
+        private DataGridViewTextBoxColumn ID;
+        private DataGridViewTextBoxColumn Company;
+        private DataGridViewTextBoxColumn Model;
+        private DataGridViewTextBoxColumn State;
+        private DataGridViewTextBoxColumn License;
+        private DataGridViewTextBoxColumn Production;
     }
 }

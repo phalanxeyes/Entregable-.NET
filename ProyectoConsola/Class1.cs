@@ -16,7 +16,7 @@ namespace ProyectodeConsola
             public string? model { get; set; }
             public string? state { get; set; }
             public string? license { get; set; }
-            public int? production_year { get; set; }
+            public int production_year { get; set; }
     }
     public class GarageContext : DbContext
     {
@@ -49,24 +49,27 @@ namespace ProyectodeConsola
             }
             
         }
-        public static void Read() 
+        public static List<string[]> Read() 
         {
+            List<string[]> list = new List<string[]>();
             using GarageContext context = new GarageContext();
             {
                 foreach (Car c in context.Cars) 
                 {
-                    Console.WriteLine(c.id.ToString());
-                    Console.WriteLine(c.company);
-                    Console.WriteLine(c.model);
-                    Console.WriteLine(c.state);
-                    Console.WriteLine(c.license);
-                    Console.WriteLine(c.production_year);
+                    string[] row = {
+                        Convert.ToString(c.id), 
+                        c.company,
+                        c.model,
+                        c.state,
+                        c.license, 
+                        Convert.ToString(c.production_year)};
+                    list.Add(row);
                 }
             }
+            return list;
         }
         public static void Update(int id, string company, string model, string state, string license, int production_year) 
         {
-//            int.TryParse(Console.ReadLine(), out int id);
             using GarageContext context = new GarageContext();
             {
                 var cartomodify = context.Cars.Find(id);
