@@ -2899,19 +2899,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nico-\\.nuget\\packages\\": {}
+    "C:\\Users\\nevertell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nico-\\Desktop\\Entregable-.NET\\WinForms\\WinForms.csproj",
+      "projectUniqueName": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\WinForms\\WinForms.csproj",
       "projectName": "WinForms",
-      "projectPath": "C:\\Users\\nico-\\Desktop\\Entregable-.NET\\WinForms\\WinForms.csproj",
-      "packagesPath": "C:\\Users\\nico-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nico-\\Desktop\\Entregable-.NET\\WinForms\\obj\\",
+      "projectPath": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\WinForms\\WinForms.csproj",
+      "packagesPath": "C:\\Users\\nevertell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\WinForms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nico-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nevertell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2925,8 +2925,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\nico-\\Desktop\\Entregable-.NET\\ProyectoConsola\\ProyectoConsola.csproj": {
-              "projectPath": "C:\\Users\\nico-\\Desktop\\Entregable-.NET\\ProyectoConsola\\ProyectoConsola.csproj"
+            "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\ProyectoConsola.csproj": {
+              "projectPath": "C:\\Users\\nevertell\\source\\repos\\Ejemplo ABM\\ProyectoConsola\\ProyectoConsola.csproj"
             }
           }
         }
@@ -2964,7 +2964,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

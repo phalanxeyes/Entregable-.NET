@@ -73,12 +73,16 @@ namespace ProyectodeConsola
             using GarageContext context = new GarageContext();
             {
                 var cartomodify = context.Cars.Find(id);
-                cartomodify.company = company;
-                cartomodify.model = model;
-                cartomodify.state = state;
-                cartomodify.license = license;
-                cartomodify.production_year = production_year;
-                context.SaveChanges();
+                if (cartomodify != null) 
+                {
+                    cartomodify.company = company;
+                    cartomodify.model = model;
+                    cartomodify.state = state;
+                    cartomodify.license = license;
+                    cartomodify.production_year = production_year;
+                    context.SaveChanges();
+                }
+
             };
         }
         public static void Delete(int id) 

@@ -8,6 +8,7 @@ namespace WinForms
     {
         public float state { get; set; }
         List<string[]> list = new List<string[]>();
+        int idInput;
         public Form1()
         {
             InitializeComponent();
@@ -81,9 +82,12 @@ namespace WinForms
         }
         private void button5_Click(object sender, EventArgs e)
         {
+            int year;
             switch (state) {
-                case 0: 
-                    CRUD.Create(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, Convert.ToInt32(textBox5.Text));
+                case 0:
+                    
+                    int.TryParse(textBox5.Text, out year);
+                    CRUD.Create(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, year);
                     foreach (var txtbox in Controls.OfType<System.Windows.Forms.TextBox>()) 
                     {
                         txtbox.Text = "";
@@ -98,38 +102,63 @@ namespace WinForms
                     break;
 
                 case 2.1F:
-                    hideAll();
-                    button5.Show();
-                    label1.Text = "Company";
-                    label1.Show();
-                    label2.Show();
-                    label3.Show();
-                    label4.Show();
-                    label5.Show();
-                    textBox1.Show();
-                    textBox2.Show();
-                    textBox3.Show();
-                    textBox4.Show();
-                    textBox5.Show();
-                    state = 2.2F;
+                    if (int.TryParse(textBox6.Text, out idInput) == false)
+                    {
+                        hideAll();
+                        label7.Show();
+                        state = 4;
+                    }
+                    else 
+                    {
+                        hideAll();
+                        button5.Show();
+                        label1.Text = "Company";
+                        label1.Show();
+                        label2.Show();
+                        label3.Show();
+                        label4.Show();
+                        label5.Show();
+                        textBox1.Show();
+                        textBox2.Show();
+                        textBox3.Show();
+                        textBox4.Show();
+                        textBox5.Show();
+                        state = 2.2F;
+                    }
                     break;
 
                 case 2.2F:
-                    CRUD.Update(Convert.ToInt32(textBox6.Text), textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, Convert.ToInt32(textBox5.Text));
-                    foreach (var txtbox in Controls.OfType<System.Windows.Forms.TextBox>())
-                    {
-                        txtbox.Text = "";
-                    }
-                    hideAll();
-                    showMenu();
+                        int.TryParse(textBox5.Text, out year);
+                        CRUD.Update(idInput, textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, year);
+                        foreach (var txtbox in Controls.OfType<System.Windows.Forms.TextBox>())
+                        {
+                            txtbox.Text = "";
+                        }
+                        hideAll();
+                        showMenu();
+                    
                     break;
 
                 case 3:
-                    CRUD.Delete(Convert.ToInt32(textBox6.Text));
+                    if (int.TryParse(textBox6.Text, out idInput) == false)
+                    {
+                        hideAll();
+                        label7.Show();
+                        state = 4;
+                    }
+                    else 
+                    {
+                        CRUD.Delete(idInput);
+                        hideAll();
+                        showMenu();
+                    }
+                    break;
+
+                case 4:
                     hideAll();
                     showMenu();
                     break;
-                    }
+            }
         }
     }
 }
